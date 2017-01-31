@@ -1,0 +1,24 @@
+{
+  "name": "export_file",
+  "version": "1.0.0",
+  "description": "export default <your file here>",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Kelvin W Sherlock",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "export_file": "export_file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksherlock/export_file.git"
+  },
+  "keywords": [
+    "export", "import", "file"
+  ],
+  "dependencies": {
+    "sysexits": "^1.0.1"
+  }
+}
