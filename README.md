@@ -13,9 +13,9 @@ Well, I needed to once. Use rollup or other modern tools to import it:
 ## Usage
 
     export_file                   ; reads stdin, writes to stdout
-    export file -o outfile        ; reads stdin, writes outfile
-    export file -o outfile infile ; reads infile, writes outfile
-    export file infile            ; reads infile, writes to stdout
+    export_file -o outfile        ; reads stdin, writes outfile
+    export_file -o outfile infile ; reads infile, writes outfile
+    export_file infile            ; reads infile, writes to stdout
 
 
 ## Makefile
